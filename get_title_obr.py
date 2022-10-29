@@ -26,6 +26,3 @@ def get_title(file_name):
     
     #print(f'{file_name} title done')
     return title
-
-
-f = get_title('internal_files_migrating.sql')
