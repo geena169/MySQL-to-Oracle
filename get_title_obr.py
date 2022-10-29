@@ -1,3 +1,6 @@
+# Обработка файлов создания таблиц
+# А именно приведение их к виду ввода в БД Oracle
+
 from get_line import get_line
 
 path_title = 'out/create_obr'
