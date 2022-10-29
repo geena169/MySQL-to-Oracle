@@ -1,3 +1,6 @@
+# Обрабтка файлов создания таблиц
+# Приведение к виду для ввода в БД Oracle (удаление ключей, приведение типов данных)
+
 from os import listdir as get_names
 
 from get_line import get_line
