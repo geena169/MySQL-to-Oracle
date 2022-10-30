@@ -16,7 +16,7 @@ def del_sep(line, find_s, find_e, sep, sep_change):
             kusok = line[s_+1:e_]
             line = line[:s_+1] + kusok.replace(sep,sep_change) + line[e_:]
             
-            # еобходимо узнать кол-во убранныйх символов, чтобы
+            # необходимо узнать кол-во убранных символов, чтобы
             # скорректировать поиск кавычек (инче собьются)
             e_ -= len(kusok) - len(kusok.replace(sep,sep_change))
                                 
